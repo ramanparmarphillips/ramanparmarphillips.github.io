@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    color: rgb(224, 220, 220);
+    background: #242229;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+
+
+.profile {
+    background: #2d5675;
+    padding: 20px;
+
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+a {
+    color: rgb(224, 220, 220);
+}
+
+.profilePic {
+    width: 90px;
+    border-radius: 100%;
+}
+
+.curve{
+    aspect-ratio: 3/2;
+    width: 100%;
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-image: url('./pics/layered-waves-haikei.svg');
+
+}
+
+.main {
+    background: #242229;
+    padding: 20px;
+    height: auto;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    width: 30px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
