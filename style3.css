@@ -1,0 +1,161 @@
+/* ALL */
+
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently  supported by Chrome, Edge, Opera and Firefox */
+    border: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.profile {
+    position: fixed;
+    width: 24vw;
+    padding: 10px;
+    margin: 30px;
+}
+
+.profile * {
+    max-width: fit-content;
+}
+
+.name {
+    font-family: 'Gloock', serif;
+    font-size: 40px;
+}
+
+.blurb {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify ;
+}
+
+.socials {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.links {
+    font-size: 30px;
+    color: rgb(107, 107, 107);
+    transition: all 200ms;
+    margin-right: 10px;
+}
+
+.emailCont {
+    margin-top: 14px;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+    padding: 10px 80px;
+    border-radius: 30px;
+    margin:auto;
+    border: solid 1px rgb(216, 216, 216);
+    transition: all 200ms;
+}
+
+.email:hover {
+    transform: translateY(-4px);
+}
+.links:hover {
+    transform: translateY(-4px);
+}
+
+.skills {
+    color: rgb(122, 122, 122);
+    text-align: center;
+}
+
+.badges {
+    margin-top: 20px;
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+.icon {
+    width: 30px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    opacity: 80%;
+}
+
+
+
+
+
+.main {
+    position: absolute;
+    right: 0;
+    width: 60vw;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px
+}
+
+.project {
+    position: relative;
+    display: flex;
+    background: darkgray;
+    height: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transition: all 200 ease;
+}
+
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectPic {
+    width: 60%;
+    margin: auto 0 auto 45px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.projectTitle {
+    color: white;
+    text-decoration: none;
+    font-family: 'Gloock', serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin: 30px;
+
+}
+
+.projectDisc {
+    padding: 0 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.projectArrow {
+    position: absolute;
+    bottom: 30px;
+    right:30px;
+    font-size: 80px;
+    color: white;
+    transition: all 200ms ease;
+}
+
+.projectArrow:hover {
+    transform: translateX(4px);
+}

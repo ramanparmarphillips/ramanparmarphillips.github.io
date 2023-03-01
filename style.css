@@ -11,6 +11,15 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
 .profile {
     background: #2d5675;
     padding: 20px;
@@ -22,14 +31,61 @@ h1 {
 
 }
 
+h3 {
+    text-align: center;
+}
+
+
 a {
     color: rgb(224, 220, 220);
+    
 }
+
+.email {
+    text-decoration: none;
+    background-color: #3f4e58;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .profilePic {
     width: 90px;
     border-radius: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .curve{
     aspect-ratio: 3/2;
@@ -39,10 +95,11 @@ a {
     background-position: center ;
     background-size: cover;
     background-image: url('./pics/layered-waves-haikei.svg');
-
+    
 }
 
 .main {
+    text-align: justify;
     background: #242229;
     padding: 20px;
     height: auto;
