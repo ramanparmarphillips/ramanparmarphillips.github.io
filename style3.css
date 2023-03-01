@@ -163,3 +163,25 @@ body {
 .projectArrow:hover {
     transform: translateX(4px);
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+    .profile {
+        position: relative;
+        width: 90vw;
+        padding: 0;
+    }
+    .name {
+        font-size: 40px;
+    }
+    .blurb {
+
+    }
+    .main {
+        position: relative;
+    }
+}
