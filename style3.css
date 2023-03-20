@@ -19,6 +19,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    position: relative;
     
 }
 
@@ -27,15 +28,20 @@ body {
     width: 24vw;
     padding: 10px;
     margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
 
 .profile * {
+    text-align: center;
+    margin: 0 auto;
     max-width: fit-content;
 }
 
 .name {
     font-family: 'Gloock', serif;
     font-size: 40px;
+    text-align: center;
 }
 
 .blurb {
@@ -43,6 +49,7 @@ body {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     text-align:justify ;
+    width: 22vw;
 }
 
 .socials {
@@ -126,6 +133,7 @@ body {
     /* width: max-conten; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     transition: all 200 ease;
+    border-radius: 10px;
 }
 
 .projectInfo {
@@ -138,7 +146,8 @@ body {
     width: 50%;
     /* margin: auto 0 auto 1vw; */
     margin: 0 auto;
-    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 10px;
 }
 
 .projectTitle {
@@ -153,7 +162,7 @@ body {
 
 .projectDisc {
     padding: 0 1vw;
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     text-align: justify;
     width: 80%;
     margin: 1rem auto;
@@ -196,6 +205,7 @@ body {
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        box-shadow:none
     }
     .name {
         font-size: 40px;
@@ -205,6 +215,7 @@ body {
 
     .blurb {
         padding: 1rem;
+        width: 90%;
     }
     .project {
         display: flex;
@@ -213,7 +224,8 @@ body {
         height: fit-content;
         width: 90%;
         margin: 0 auto;
-        padding: 0;
+        padding: 10px;
+
 
     }
 
@@ -226,6 +238,9 @@ body {
         font-size: 5vw;
     }
 
+    .proj {
+        text-align: center;
+    }
     .projectArrow {
         /* position: relative; */
         /* margin: 1rem; */
